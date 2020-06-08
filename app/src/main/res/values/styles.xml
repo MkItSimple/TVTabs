@@ -8,4 +8,19 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TabLayoutFontFamily">
+        <item name="tabPaddingBottom">@font/montserrat_medium</item>
+    </style>
+
+<!--    <style name="TabLayoutFontFamily">-->
+<!--        <item name="android:fontFamily">@font/montserrat_medium</item>-->
+<!--        <item name="android:fontFamily">@font/montserrat_medium</item>-->
+<!--    </style>-->
+
+<!--    <style name="TabLayoutTextColor">-->
+<!--        <item name="android:textColor">#FFEA42</item>-->
+<!--    </style>-->
+
+
+
 </resources>

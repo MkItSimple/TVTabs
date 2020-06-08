@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        toolbar = findViewById(R.id.toolbar);
+//        toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         viewPager = findViewById(R.id.view_pager);
@@ -51,13 +51,13 @@ public class MainActivity extends AppCompatActivity {
         viewPagerAdapter.addFragment(travelFragment, "Travel");
         viewPager.setAdapter(viewPagerAdapter);
 
-        tabLayout.getTabAt(0).setIcon(R.drawable.ic_baseline_explore_24);
-        tabLayout.getTabAt(1).setIcon(R.drawable.ic_baseline_flight_24);
-        tabLayout.getTabAt(2).setIcon(R.drawable.ic_baseline_card_travel_24);
+//        tabLayout.getTabAt(0).setIcon(R.drawable.ic_baseline_explore_24);
+//        tabLayout.getTabAt(1).setIcon(R.drawable.ic_baseline_flight_24);
+//        tabLayout.getTabAt(2).setIcon(R.drawable.ic_baseline_card_travel_24);
 
-        BadgeDrawable badgeDrawable = Objects.requireNonNull(tabLayout.getTabAt(0)).getOrCreateBadge();
-        badgeDrawable.setVisible(true);
-        badgeDrawable.setNumber(12);
+//        BadgeDrawable badgeDrawable = Objects.requireNonNull(tabLayout.getTabAt(0)).getOrCreateBadge();
+//        badgeDrawable.setVisible(true);
+//        badgeDrawable.setNumber(12);
 
     }
 
